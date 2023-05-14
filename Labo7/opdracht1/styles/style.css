@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.blog {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.top_header {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    height: 110px;
+}
+
+.top_header h1 {
+    font-size: 5em;
+    color: #FFF;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.top_menu {
+    font-size: 1.8em;
+    font-weight: 600;
+    background-color: #444;
+    padding: 5px 5px;
+}
+
+.top_menu a:link,
+.top_menu a:visited {
+    text-decoration: none;
+    color: #8dec8d;
+    padding: 0 15px;
+}
+
+.top_menu a:hover,
+.top_menu a:active {
+    text-decoration: none;
+    color: #599659;
+}
+
+.article_container {
+    background: #e5e5e5;
+    margin: 5px 5px;
+    padding: 40px 10px 10px 10px;
+}
+
+.article_header h1 {
+    font-size: 3.2em;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.article_text {
+    font-size: 1.4em;
+    margin-bottom: 7px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.2em;
+}

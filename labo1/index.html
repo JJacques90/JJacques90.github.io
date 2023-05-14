@@ -3,29 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Homepage</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <article>
-        <header>
+    <article class="container">
+        <header class="top_header">
             <h1>Leeroy Jenkins</h1>
         </header>
-        <section>
+        <section class="info_sec">
             <header><h2>Personal information</h2></header>
-            <figure>
-                <img src="img/profile.jpeg" alt="profile picture">
-                <figcaption>My profile picture</figcaption>
-            </figure>
-            <ul>
-                <li>Leeroy Jenkins</li>
-                <li>Memelane 47, 4747 Memesville</li>
-                <li>+5637484739</li>
-                <li><a href="mailto:jacques.jeffrey@hotmail.com">leeroy_jenkins@itsame.com</a></li>
-            </ul>
-            <footer><hr></footer>
+                <ul class="list">
+                    <li>Leeroy Jenkins</li>
+                    <li>Memelane 47, 4747 Memesville</li>
+                    <li>+5637484739</li>
+                    <li><a href="mailto:jacques.jeffrey@hotmail.com">leeroy_jenkins@itsame.com</a></li>
+                </ul>
+                <aside class="profile_pic">
+                    <figure>
+                        <img src="img/profile.jpeg" alt="profile picture">
+                        <figcaption>My profile picture</figcaption>
+                    </figure>
+                </aside>
         </section>
-        <section>
-            <a href="hobbies.html">My hobbies</a>
+        <section class="hobbies_sec">
+            <header>
+                <h2>My hobbies</h2>
+            </header>
+
+            <section class="hobby_container">
+                <h3 class="hobby_title">Gaming</h3>
+                <p class="hobby_text">One of my favorite hobbies is gaming, for example Apex Legends:</p>
+                <a class="hobby_link" href="https://www.ea.com/games/apex-legends">Apex Legends</a>
+            </section>
+
+            <section class="hobby_container">
+                <h3 class="hobby_title">Guitar</h3>
+                <p class="hobby_text">I also like playing the guitar, I own a Epihone Les Paul Custom:</p>
+                <a class="hobby_link" href="https://www.ea.com/games/apex-legends">See the guitar</a>
+            </section>
         </section>
+
     <footer>Just Leeroy Things&#8482;</footer>
     </article>
 </body>
