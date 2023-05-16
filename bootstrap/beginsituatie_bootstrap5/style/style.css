@@ -1,0 +1,16 @@
+.main-content {
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.side-content {
+    height: 180px;
+    background-color: darkgrey;
+    border: solid 10px #fff;
+}
+
+.bg2 {
+    height: 100px;
+    background-color: red;
+    border: solid 5px black;
+}

@@ -4,9 +4,13 @@
 }
 
 body {
+    font-family: Arial, Helvatica, sans-serif;
+    background: #E6E6E6 url("../fotos/pagebackground.png") repeat-y center top;
+}
+
+#container {
     width: 960px;
     margin: auto;
-    font: 1em Arial, Helvatica, sans-serif;
 }
 
 header {
@@ -42,8 +46,6 @@ aside {
     border: 1px solid #999999;
     color: #666666;
     font-size: 90%;
-    padding: 10px;
-    box-sizing: border-box;
 }
 
 aside h3 {
@@ -51,58 +53,91 @@ aside h3 {
     color: #fff;
     background: blue;
     text-align: center;
-    margin: 15px 0;
+    margin: 1.3em 0;
 }
 
-.content {
+aside p {
+    padding: 0 10px;
+}
+
+.main {
     width: 700px;
     float: left;
-    box-sizing: border-box;
 }
 
-.content_header {
-    padding: 20px 30px 20px 140px;
-    position: relative;
+.introduction>.logo {
+    float:left;
+    width : 140px;
+    box-sizing:border-box;
+    padding : 20px 20px;
 }
 
-.content figure {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-.content_text {
-    text-align: justify;
+.introduction>.text  {
+    float:left;
+    box-sizing:border-box;
+    width:560px;
+    padding : 20px 30px 20px 0;
+    margin:0;
+    background-color: white;
+    color:black;
     font-size: 90%;
+    text-align:justify;
 }
 
-.content_text span {
+.introduction>.text span {
+    font-style:italic;
     color: blue;
-    font-style: italic;
-    font-weight: bold;
+    font-weight:bold;
 }
 
 .gallery {
+    clear: both;
     background-color: #999999;
+    padding : 10px 0 10px 10px;
 }
 
 .gallery .photo {
     display: inline-block;
+    width: 200px;
+    height: 200px;
     background-color: #fff;
     border: 1px dotted #999;
-    /*margin-left: 20px;*/
-    padding: 10px;
+    margin: 10px 10px;
     box-sizing: border-box;
-    font-size: 0;
 }
 
-.gallery .photo img{
-    width: 180px;
-    height: 180px;
-    margin: 0;
-    padding: 0;
+.photo>img{
+    padding: 10px;
 }
 
-footer {
+.bottom {
     clear: both;
+    background-color: #666;
+    padding: 20px 0;
+}
+
+.block {
+    display: inline-block;
+    color: #fff;
+    margin-left: 120px;
+    line-height: 2em;
+}
+
+.block a:link,
+.block a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.block a:hover,
+.block a:active {
+    color: red;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 70%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
 }
