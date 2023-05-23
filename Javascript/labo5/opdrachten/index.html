@@ -8,6 +8,34 @@
     <title>opdrachten</title>
 </head>
 <body>
+    <div id="container">
+        <div id="labelContainer">
+            <label for="roker">Is roker</label><br>
+            <label>Moedertaal</label><br>
+            <label for="buurland">Favoriete buurland</label><br>
+            <label for="bestelling">Bestelling</label><br>
+        </div>
+        <div id="formContainer">
+            <input type="checkbox" id="roker"><br>
+            <input type="radio" id="nl" name="moedertaal" checked="checked"><label for="nl"> Nederlands</label>
+            <input type="radio" id="fr" name="moedertaal"><label for="fr"> Frans</label>
+            <input type="radio" id="en" name="moedertaal"><label for="en"> Engels</label><br>
+            <select id="buurland" name="buurland">
+                <option value="nederland">Nederland</option>
+                <option value="frankrijk">Frankrijk</option>
+                <option value="duitsland">Duitsland</option>
+            </select><br>
+            <select id="bestelling" name="bestelling" multiple>
+                <option value="aardappelen">aardappelen</option>
+                <option value="brood">brood</option>
+                <option value="melk">melk</option>
+                <option value="biefstuk">biefstuk</option>
+                <option value="chips">chips</option>
+                <option value="krant">krant</option>
+            </select>
 
+        </div>
+        <button type="button" id="btn">Toon resultaat</button>
+    </div>
 </body>
 </html>

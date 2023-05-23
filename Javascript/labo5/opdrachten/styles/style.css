@@ -1,0 +1,14 @@
+#container {
+    width: 500px;
+    border: 1px solid black;
+}
+
+#labelContainer {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#formContainer {
+    display: inline-block;
+    margin-bottom: 10px;
+}

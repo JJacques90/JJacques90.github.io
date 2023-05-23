@@ -1,0 +1,27 @@
+.container {
+    border: 5px solid grey;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.color {
+    margin-left: 10px;
+    margin-right:5px;
+}
+
+.sliders {
+    display: inline-block;
+}
+
+#swatch {
+    display: inline-block;
+    width:120px;
+    height:120px;
+    border:1px solid black;
+    margin-left: 20px;
+}
