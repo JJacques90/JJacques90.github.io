@@ -1,0 +1,26 @@
+form {
+    display: table;
+}
+
+p {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+}
+
+input {
+    display: table-cell;
+    margin-left: 30px;
+}
+
+.errorMessage {
+    color: red;
+    padding-left: 30px;
+}
+
+input.invalid {
+    border: 2px solid red;
+    border-radius: 3px;
+}

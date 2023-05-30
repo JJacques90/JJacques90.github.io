@@ -3,6 +3,7 @@
     border-radius: 10px;
     display: inline-block;
     padding: 20px;
+    width: 450px;
 }
 
 .inline {
@@ -16,12 +17,54 @@
 
 .sliders {
     display: inline-block;
+    vertical-align: top;
+}
+
+#swatch-box {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
 }
 
 #swatch {
-    display: inline-block;
     width:120px;
     height:120px;
     border:1px solid black;
-    margin-left: 20px;
+    margin: 0 auto;
+}
+
+#save {
+    margin-top: 10px;
+}
+
+#preset-box {
+    margin-top: 20px;
+    width: 450px;
+    height: 100%;
+    border: 5px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#swatch-preset {
+    width:120px;
+    height:120px;
+    border:1px solid black;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+#swatch-preset:last-child {
+    margin-right: 0;
+}
+
+#remove {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.hidden {
+    display: none;
 }
